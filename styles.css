@@ -160,6 +160,38 @@ section {
   gap: 8px;
 }
 
+.projects {
+  background-color: var(--color-secondary-light);
+  color: var(--color-primary);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  width: 100%;
+  padding: 80px 24px;
+}
+
+.projects .card {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+}
+
+.projects .card img {
+  width: 100%;
+  border-radius: 16px;
+  opacity: 0.9;
+}
+
+.projects .card .title {
+  font-size: 48px;
+}
+
+.projects .card .text {
+  font-size: 20px;
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
